@@ -1,0 +1,27 @@
+PATH
+  remote: .
+  specs:
+    rexpro (1.0.4)
+      msgpack (= 0.6.2)
+      tcp_timeout (~> 0.1.1)
+      uuid (~> 2.3.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    macaddr (1.7.1)
+      systemu (~> 2.6.2)
+    msgpack (0.6.2)
+    rake (10.4.2)
+    systemu (2.6.5)
+    tcp_timeout (0.1.1)
+    uuid (2.3.8)
+      macaddr (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.3)
+  rake
+  rexpro!
